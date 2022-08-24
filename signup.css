@@ -1,0 +1,60 @@
+*{
+    font-family: sans-serif;
+    
+}
+#form{
+   height:auto;
+   border: 1px solid black;
+   margin: auto;
+   width: 25%;
+   padding: 15px;
+   background-color:white;
+   
+}
+.input{
+   display: block;
+   text-align: center;
+   margin-top: 20px;
+   justify-content: center;
+   align-items: center;
+   margin: 15px auto;
+    width: 80%;
+    padding: 15px 10px 15px 10px;
+    border: 1px solid black;
+}
+#terms{
+   margin: auto;
+   text-align: center;
+   font-size: 12px;
+   width: 95%;
+}
+#img{
+    width: 60%;
+    margin-left: 70px;
+   
+}
+.signup{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+#sub{
+   cursor: pointer;
+    font-size:25px;
+    padding: 10px 10px 10px 10px;
+    width: 86%; 
+    background-color: black;
+    color: white;
+}
+#sub:hover{
+    background-color:#189f99;
+    border: 1px solid black;
+}
+#Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 125px;  
+}
+
