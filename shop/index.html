@@ -5,10 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #shop_box{
+            /* border: 1px solid black; */
+            display: flex;
+            width:80%;
+            margin:auto;
+            justify-content: space-between;
+        }
+
+        #shop_container{
+            border:1px solid rgb(220, 96, 96);
+            width:80%;
+       }
+       #shop_container>#shop_upbar{
+        /* border: 1px solid orange; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       }
+       #shop_sorting{
+        border: 1px solid rgb(189, 182, 182);
+        width:230px;
+        height: 50px;
+       }
+       #shop_shop{
+        color:  rgb(166, 161, 161);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+
+        }
+        #shop_shop>h1{
+            color: black;
+        }
+        #shop_shop>p{
+           font-size: 14px;
+        }
+        #shop_items{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap:30px;
+        }
+        #shop_items>div>img{
+            width:100%;
+            height: 280px;
+        }
+    </style>
 </head>
 <body>
-    <div id="shop-sidebar">
-        <!--sidebar content-->
+    <div id="shop_box">
+        <div id="shop-sidebar">
+            <div>
+                <h2 id="">brand</h2>
+                <p id="shop_brand_1">26 carat</p>
+                <p id="shop_brand_2">DANIEL CHRISTIAN</p>
+                <p id="shop_brand_3">Finachi</p>
+                <p id="shop_brand_4">hepo</p>
+                <p id="shop_brand_5">jacksapprow</p>
+                <p id="shop_brand_6">MITALI</p>
+                <p id="shop_brand_7">philips</p>
+                <p id="shop_brand_8">piirona</p>
+            </div>
+            <!--sidebar content-->
+        </div>
+        <div id="shop_container">
+            <div id="shop_upbar">
+                <div id="shop_shop">
+                    <h1>Shop</h1>
+                    <p>Home » Shop</p>
+                    <p id="shop-filtno"></p>
+                </div>
+                <div id="shop_sorting">
+                    <p>default</p>
+                </div>
+            </div>
+            <!-- append items to container-->
+            <div id="shop_items">
+
+            </div>
+        </div>
     </div>
+    
 </body>
 </html>
+<script src="shop.js" type="module"></script>
