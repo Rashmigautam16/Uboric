@@ -1,0 +1,91 @@
+
+#shop_box{
+    /* border: 1px solid black; */
+    display: flex;
+    width:85%;
+    margin:auto;
+    justify-content: space-between;
+}
+
+#shop_container{
+    /* border:1px solid rgb(220, 96, 96); */
+    width:75%;
+}
+#shop_container>#shop_upbar{
+/* border: 1px solid orange; */
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+/* sorting functionality */
+#shop_sorting{
+border: 1px solid rgb(189, 182, 182);
+width:230px;
+height: 50px;
+}
+
+#shop_shop{
+color:  rgb(166, 161, 161);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+
+}
+#shop_shop>h1{
+    color: black;
+}
+#shop_shop>p{
+   font-size: 14px;
+}
+
+ /* appending shop items */
+#shop_items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+}
+#shop_items>div{
+    border: 1px s;
+}
+#shop_items>div>img{
+    width:100%;
+    height: 280px;
+    
+}
+#shop_items>div>p{
+    margin: 0px 30px 0px 30px;
+    text-align: center;
+   
+}
+
+#shop_items>div>#price_div{
+    display: flex;
+    width:170px;
+    margin: auto;
+    justify-content: space-around;
+}
+
+#select_short{
+    border: none;
+    display: flex;
+    text-align: center;
+}
+/* shop sidebar brands search */
+#shop_sidebar{
+    width:20%;
+    /* border: 1px solid green; */
+}
+#shop_sidebar>div{
+    color: rgb(116, 111, 111);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#shop_brand{
+    border-bottom:1px solid rgb(201, 196, 196) ;
+}
+#brand_search{
+    border: 1px solid rgb(203, 202, 202);
+    width: 97%;
+    height: 40px;
+   
+}
+.checkbox{
+   background-color: grey;
+}
