@@ -1,0 +1,182 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#coupon{
+    width: 40%;
+    height: 60px;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+   background-color: grey;
+    align-items: center;
+}
+.text{
+    text-align: center;
+}
+#top-box{
+    border: 1px solid black;
+    align-items: center;
+    width: 40%;
+    height: 250px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#enter_coupon{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+}
+#enter_coupon>input{
+width: 90%;
+padding: 13px 0px 13px 0px;
+}
+#enter_coupon button{
+    margin-top: 40px;
+    width: 30%;
+    padding: 15px 0px 15px 0px;
+    background-color: black;
+    color: white;
+}
+
+#billing_details{
+margin: auto;
+width: 96%;
+height: 98vw;
+display: flex;
+margin-top: 40px;
+}
+
+#billing_details>div:nth-child(1){
+width: 60%;
+height: 100%;
+}
+#billing_details>div:nth-child(2){
+    
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#bill_1>input{
+width: 80%;
+padding: 18px;
+margin-bottom: 25px;
+}
+
+#billing_details>div:nth-child(2)>div{
+border: 1px solid black;
+display: grid;
+grid-template-columns: 400px;
+grid-template-rows: 100px 150px 150px;
+margin-bottom: 20px;
+}
+#notes{
+    border: 1px solid blue;
+    width: 80%;
+    height: 10%;
+   
+    padding-top: 20px;
+}
+.notes{
+    display: flex;
+    padding-left: 20px;
+}
+
+
+/* css for paytm image */
+
+#last-secnd>div:nth-child(1){
+   display: flex;
+   justify-content: space-around;
+   margin-top: 20px;
+}
+#paytm-img>{
+display: flex;
+justify-content: center;
+ align-items: center;
+}
+#paytm-img>img{
+    width: 200px;
+    height: 60px;
+}
+#radio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+/* css for razor image */
+
+#last-secnd>div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 10px 0px 10px 0px;
+ }
+ #razor-img>{
+ display: flex;
+ justify-content: center;
+  align-items: center;
+ }
+ #razor-img>img{
+     width: 200px;
+     height: 70px;
+ }
+ #razor{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 30px;
+ }
+
+
+
+ /* css for simple image */
+
+
+ #last-secnd>div:nth-child(3){
+    display: flex;
+    justify-content: space-around;  
+ }
+ #simple-img>{
+ display: flex;
+ justify-content: center;
+  align-items: center;
+ }
+ #simple-img>img{
+    margin-top: 30px;
+    width: 200px;
+    height: 100px;
+ }
+ #simple{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+ }
+
+ #checkout-btn{
+   width: 100%;
+   padding: 15px 0px 15px 0px;
+   background-color: black;
+   color: white;
+   margin-bottom: 20px;
+   cursor: pointer;
+ }
+ #checkout-btn:hover{
+    background-color: red;
+ }
+ 
+ #first-one>div>span{
+display: flex;
+justify-content: space-between;
+font-size: 20px;
+}
+#first-one>div{
+    height: 300px;
+    width: 90%;
+    margin: auto;
+}
+
