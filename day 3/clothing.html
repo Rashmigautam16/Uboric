@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles/category.css">
+  <style>
+    
+  </style>
+</head>
+
+<body>
+  <h1 style="margin-left: 22%;">Clothing</h1>
+  <div id="big_box">
+    <div id="sidebar">
+      <h2>Filter</h2>
+      <p id=filter1>2000</p>
+      <p id="finachi">Finachi</p>
+      <p id="piirona">Piirona</p>
+      <p id="vraj_creation">Vraj creation</p>
+      <p id="snehal">Snehal creaion</p>
+    </div>
+    
+    <div id="container"></div>
+  </div>
+</body>
+
+</html>
+
+<script type="module">
+  import { appendData } from "./scripts/import.js"
+  import { clothingFun,finachiFun,piironaFun,snehalFun } from "./scripts/data.js"
+  
+  clothingFun();
+  let clothing = JSON.parse(localStorage.getItem("clothingData"));
+  appendData(clothing);
+
+  let finachi=JSON.parse(localStorage.getItem("finachiData"));
+  let sFinachi=document.getElementById("finachi");
+  sFinachi.addEventListener("click",function(){
+    finachiFun();
+    appendData(finachi);
+  });
+
+  let piirona=JSON.parse(localStorage.getItem("piironaData"));
+  let sPiirona=document.getElementById("piirona");
+  sPiirona.addEventListener("click",function(){
+    piironaFun();
+    appendData(piirona);
+  });
+
+  let sVraj_creation=document.getElementById("vraj_creation");
+  sVraj_creation.addEventListener("click",function(){
+    clothingFun();
+    appendData(clothing);
+  });
+
+  let snehal=JSON.parse(localStorage.getItem("snehalData"));
+  let sSnehal=document.getElementById("snehal");
+  sSnehal.addEventListener("click",function(){
+    snehalFun();
+    appendData(snehal);
+  });
+
+  let filter1=document.getElementById("filter1");
+  filter1.addEventListener("click",function(){
+    let f1=clothing.filter(function(el){
+      return el.price>"2000";
+    });
+    console.log(f1);
+    appendData(f1);
+  })
+  
+</script>
