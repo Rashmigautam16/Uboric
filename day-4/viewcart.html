@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View-Cart</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #bigDiv {
+            width: 90%;
+            height: auto;
+
+            margin: auto;
+            margin-top: 60px;
+            display: flex;
+        }
+
+        #maindiv {
+            width: 60%;
+            height: auto;
+
+            margin: auto;
+            margin-top: 60px;
+            /* display: flex; */
+        }
+
+        .cartfst {
+            /* width: 60%; */
+            /* height: 60%; */
+            border-bottom: 1px solid rgb(201, 192, 192);
+            margin-right: 20px;
+            margin-top: 20px;
+            display: flex;
+            margin-left: 5px;
+        }
+
+        .pricediv {
+            width: 38%;
+            height: 100%;
+        }
+
+        .imgdiv {
+            width: 25%;
+            height: 100%;
+        }
+
+        .pricediv {
+            width: 72%;
+            height: 100%;
+            margin-left: 10px;
+        }
+
+        .imgdiv>img {
+            width: 100%;
+            height: 90%;
+            margin-bottom: 20px;
+        }
+
+        .prodname {
+            margin-left: 20px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        .number {
+            width: 20%;
+            height: 40px;
+            border: 1px solid black;
+            margin-left: 30px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .incmt,.dectmt {
+            width: 30px;
+            height: 30px;
+            border: none;
+            background: none;
+            font-size: 22px;
+            color: gray;
+        }
+
+        .incmt:hover,.dectmt:hover {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            color: white;
+            background: gray;
+        }
+
+        .pricediv {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .div6 {
+            width: 30%;
+            height: 100%;
+
+            /* margin-left: 10px; */
+        }
+
+        .pricetag,
+        #remove {
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+
+        .remove {
+            font-size: 20px;
+        }
+
+        #hello {
+            width: 80%;
+            height: 250px;
+            border: 1px solid transparent;
+            margin: auto;
+            margin-top: 20px;
+            background: #f5f5f5;
+        }
+
+        #hello>div:first-child,
+        #hello>div:nth-child(2) {
+            width: 90%;
+            margin: auto;
+            height: 32%;
+            border-bottom: 1px solid rgb(201, 192, 192);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #para>img {
+            width: 55px;
+            height: 55px;
+        }
+
+        #checkoutbtn {
+            width: 80%;
+            height: 40px;
+            display: block;
+            margin: auto;
+            background: lavender;
+            border: none;
+            margin-top: 20px;
+        }
+
+        #baktoshop {
+            margin-top: 20px;
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+
+        #cupn {
+            margin-left: 55px;
+            font-size: 18px;
+            color: rgb(44, 43, 43);
+            margin-bottom: 10px;
+        }
+
+        #inpdiv {
+            margin-left: 55px;
+            width: 280px;
+            height: 50px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        #aplybtn {
+            width: 100px;
+            height: 52px;
+            background: black;
+            color: white;
+            text-align: center;
+        }
+
+        #sharecart {
+            width: 100px;
+            height: 52px;
+            background: black;
+            color: white;
+            text-align: center;
+            margin-left: 55px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3><a href="#">Home</a>>>Cart</h3>
+    <div id="bigDiv">
+        <div id="maindiv">
+
+        </div>
+
+        <div id="paymentdiv">
+            <div id="hello">
+                <div>
+                    <p> Subtotal</p>
+                    <p>₹5,949.00</p>
+                </div>
+                <div>
+                    <h2>Total</h2>
+                    <h2>₹5,949.00</h2>
+                </div>
+                <div>
+                    <p id="para">Or 3 interest free payments of <b>₹1,983.00</b> with <img
+                            src="https://www.uboric.com/wp-content/plugins/simpl-pay-in-3-for-woocommerce/public/images/brand.svg"
+                            alt=""></p>
+                </div>
+            </div>
+            <button id="checkoutbtn"><a href="#">Proceed To Checkoout</a></button>
+            <P id="baktoshop"><a href="#">← Continue to Shopping</a></P>
+        </div>
+    </div>
+    <p id="cupn">Coupon code</p>
+    <input type="text" placeholder="Enter Coupon code" id="inpdiv">
+    <button id="aplybtn">Apply</button><br>
+    <button id="sharecart">Share Cart</button>
+</body>
+
+</html>
+<script>
+    let cartLS = JSON.parse(localStorage.getItem("cart-page")) || [];
+    appendData(cartLS);
+    
+    
+    
+    function appendData(cartLS) {
+        let container = document.getElementById("maindiv");
+        container.innerHTML = null;
+
+        cartLS.forEach(function (el) {
+            let div1 = document.createElement("div");
+            div1.setAttribute("class", "cartfst");
+
+            let div2 = document.createElement("div");
+            div2.setAttribute("class", "imgdiv");
+
+            let image = document.createElement("img");
+            image.src = el.image;
+
+            div2.append(image);
+
+            let div3 = document.createElement("div");
+            div3.setAttribute("class", "procediv");
+
+            let div4 = document.createElement("div");
+            // div4.setAttribute("class",);
+            let h3_1 = document.createElement("h3");
+            h3_1.setAttribute("class", "prodname");
+            h3_1.innerText = el.title;
+
+            let div5 = document.createElement("div");
+            div5.setAttribute("class", "number");
+            div4.append(h3_1, div5);
+
+            let button1 = document.createElement("button");
+            button1.innerText="-";
+            button1.setAttribute("class", "dectmt");
+
+            let h2=document.createElement("h2");
+            h2.setAttribute("class","prcedisplay");
+
+            let button2 = document.createElement("button");
+            button2.innerText="+";
+            button2.setAttribute("class", "incmt");
+
+            div5.append(button1,h2,button2);
+
+            let div6 = document.createElement("div");
+            div6.setAttribute("class","div6");
+
+            let h3_2 = document.createElement("h3");
+            h3_2.setAttribute("class", "pricetag")
+            h3_2.innerText = el.price;
+
+            let remove = document.createElement("p");
+            remove.setAttribute("class", "remove");
+            remove.innerText = "Remove";
+
+            div6.append(h3_2, remove);
+
+            div3.append(div4, div6);
+
+
+
+            // let title = document.createElement("h3");
+            // title.innerText = el.title;
+
+            // let default_price = document.createElement("p");
+            // default_price.innerText = "₹  " + el.default_price;
+
+            // let price =document.createElement("p");
+            // price.innerText = "₹  " + el.price;
+
+            div1.append(div2, div3);
+            container.append(div1);
+        })
+    }
+
+
+    let quantity=1;
+    let displayqnt=document.querySelector(".prcedisplay")
+    displayqnt.innerText=quantity
+
+    let inc=document.querySelector(".incmt");
+    inc.addEventListener("click",function(){
+        quantity++
+        console.log(quantity);
+        displayqnt.innerText=quantity;
+    });
+    /*function incfun(){
+        // let quantity=1;
+        quantity++
+        console.log(quantity);
+        displayqnt.innerText=quantity;
+    }
+    document.querySelector(".dectmt").addEventListener("click",decmentfun);
+    function decmentfun(){
+        quantity--;
+        console.log(quantity);
+       displayqnt.innerText=quantity;
+    }*/
+</script>

@@ -1,0 +1,52 @@
+#big_box{
+    display:flex;
+}
+#sidebar{
+    width:25%;
+    border:2px solid green;
+}
+#sidebar>p{
+    font-size: 18px;
+  }
+  .checkbox{
+    display: flex;
+  }
+#container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:15px;
+    border:2px solid red;
+}
+.box{
+    margin-top: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    padding:10px;
+    height:325px;
+}
+.box_title{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: -5px;
+}
+.box_img{
+    width:80%;
+    height:75%;
+    margin-left: 12%;
+}
+.Pbox{
+    display: flex;
+}
+.Dprice{
+    text-decoration: line-through;
+    margin-top: -15px;
+    margin-bottom: -0.5px;
+}
+.cart_button{
+   margin-left: 18%;
+   margin-right: 20%;
+}
+.price{
+    margin-top: -15px;
+    margin-bottom: -0.5px;
+    color:red;
+}

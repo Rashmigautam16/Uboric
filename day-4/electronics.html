@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles/category.css">
+  <style>
+    
+  </style>
+</head>
+
+<body>
+  <h1 style="margin-left: 22%;">Electronics</h1>
+  <div id="big_box">
+    <div id="sidebar">
+      <h2>Filter</h2>
+      <div class="checkbox">
+        <input type="checkbox" id="filter1">
+        <p>Less than 1000 Rs</p>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="filter2">
+        <p>1000 Rs to 2000 Rs</p>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="filter3">
+        <p>2000 Rs to 3000 Rs</p>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="filter4">
+        <p>More than 3000 Rs</p>
+      </div>
+    </div>
+    
+    <div id="container"></div>
+  </div>
+</body>
+
+</html>
+
+<script type="module">
+  import { appendData,filterData } from "./scripts/import.js"
+  import {electronicsFun} from "./scripts/data.js"
+  
+  electronicsFun();
+  let electronics = JSON.parse(localStorage.getItem("electronicsData"));
+  localStorage.setItem("dataFilter",JSON.stringify(electronics));
+    filterData();
+  appendData(electronics);
+
+
+</script>

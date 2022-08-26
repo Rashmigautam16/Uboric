@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles/category.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <h1 style="margin-left: 22%;">Clothing</h1>
+  <a href="viewcart.html"><button>Cart</button></a>
+  <button>Wishlist</button>
+  
+  <div id="big_box">
+    <div id="sidebar">
+      <h2>Filter</h2>
+      <div class="checkbox">
+        <input type="checkbox" id="filter1">
+        <p>Less than 1000 Rs</p>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="filter2">
+        <p>1000 Rs to 2000 Rs</p>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="filter3">
+        <p>2000 Rs to 3000 Rs</p>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="filter4">
+        <p>More than 3000 Rs</p>
+      </div>
+
+      <h2>Categories</h2>
+      <p id="finachi">Finachi</p>
+      <p id="piirona">Piirona</p>
+      <p id="vraj_creation">Vraj creation</p>
+      <p id="snehal">Snehal creaion</p>
+    </div>
+
+    <div id="container"></div>
+  </div>
+</body>
+
+</html>
+
+<script type="module">
+  import { appendData,filterData } from "./scripts/import.js"
+  import {clothingFun,finachiFun,piironaFun,snehalFun} from "./scripts/data.js"
+
+  clothingFun();
+  let clothing = JSON.parse(localStorage.getItem("clothingData"));
+  console.log(clothing);
+  filterData();
+  appendData(clothing);
+
+  let finachi = JSON.parse(localStorage.getItem("finachiData"));
+  let sFinachi = document.getElementById("finachi");
+  sFinachi.addEventListener("click", function () {
+    finachiFun();
+    localStorage.setItem("dataFilter",JSON.stringify(finachi));
+    filterData();
+    appendData(finachi);
+  });
+
+  let piirona = JSON.parse(localStorage.getItem("piironaData"));
+  let sPiirona = document.getElementById("piirona");
+  sPiirona.addEventListener("click", function () {
+    piironaFun();
+    localStorage.setItem("dataFilter",JSON.stringify(piirona));
+    filterData();
+    appendData(piirona);
+  });
+
+  let sVraj_creation = document.getElementById("vraj_creation");
+  sVraj_creation.addEventListener("click", function () {
+    localStorage.setItem("dataFilter",JSON.stringify(clothing));
+    filterData();
+    appendData(clothing);
+  });
+
+  let snehal = JSON.parse(localStorage.getItem("snehalData"));
+  let sSnehal = document.getElementById("snehal");
+  sSnehal.addEventListener("click", function () {
+    snehalFun();
+    localStorage.setItem("dataFilter",JSON.stringify(snehal));
+    filterData();
+    appendData(snehal);
+  });
+
+  
+</script>
