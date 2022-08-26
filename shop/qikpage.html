@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qikpage</title>
+    <script src="https://kit.fontawesome.com/4280425d75.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+           
+            margin: 0;
+            padding: 0;
+        }
+      #qikmain{
+          width: 95%;
+          margin: auto;
+          height: 500px;
+          margin-top: 100px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          display: flex;
+          justify-content: space-around;
+      }
+      #qikmain>div:first-child{
+          width: 40%;
+          height: auto;
+         
+      }
+      #qikmain>div:last-child{
+          width: 58%;
+          height: auto;
+         
+      }
+      /* #imgdiv>div{
+         width: 40px;
+         height: 30px;
+         text-align: center;
+         color: white;
+         background: black;
+         border: 1px solid red;
+      } */
+      #imgdiv>img{
+          width: 98%;
+          height: 85%;
+          display: block;
+          margin: auto;
+      }
+      h1{
+        text-align: center;
+        margin-top: 30px;
+      }
+      h1+h2{
+          text-align: center;
+          margin-top: 25px;
+          text-decoration: line-through;
+          color: gray;
+      }
+      span{
+          font-size: 25px;
+          color: rgb(226, 23, 23);
+          margin-left: 250px;
+          margin-top: 20px;
+      }
+      span+p{
+          text-align: center;
+          font-size: 18px;
+          margin-top: 15px;
+      }
+      #mainbtn{
+          width: 80%;
+          height: 60px;
+        
+          margin: auto;
+          margin-top: 30px;
+          display: flex;
+          justify-content: space-between;
+      }
+      #mainbtn>div{
+          width: 32%;
+          height: 100%;
+         
+      }
+      #mainbtn>div:first-child{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          color: grey;
+         
+      }
+     
+   .btn{
+       width: 40px;
+       height: 40px;
+       font-size: 25px;
+       border: none;
+       color: gray;
+       background: none;
+   }
+   .btn:hover{
+       background: rgb(218, 188, 218);
+       font-size: 18px;
+       width:30px ;
+       height: 30px;
+       border-radius: 50%;
+       color: black;
+   }
+   #mainbtn>div:nth-child(2){
+       background: black;
+       color:rgb(231, 222, 222);
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+   }
+   #mainbtn>div:last-child{
+       background: black;
+       color: white;
+       text-align:center;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   #wishdiv{
+       width:200px ;
+       height: 50px;
+       border: 1px solid black;
+       margin-top: 20px;
+       margin-left: 65px;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       margin-bottom: 35px;
+   }
+   .last{
+      
+       margin-left: 65px;
+   }
+   #more{
+       width: 100%;
+       height: 60px;
+       margin-top:20px  ;
+       margin-bottom: 0px;
+       background: #ff6f61;
+       text-align: center;
+       color: white;
+       font-size:20px;
+       border: none;
+   }
+    </style>
+</head>
+<body>
+    <div id="qikmain">
+        <div id="imgdiv">
+          
+           <img src="https://www.uboric.com/wp-content/uploads/2022/08/IMG_20220425_121808_9051-670x893.jpg" alt="">
+           <button id="more">More Product Info</button>
+        </div>
+        <div id="detaildiv">
+            <h1>26 carat Elegant Jewellery Necklace</h1>
+            <h2>₹36,099.00</h2>
+            <span><b>₹18,049.00</b></span>
+            <p>(100 in stock)</p>
+           <div id="mainbtn">
+              <div id="number">
+                  <button class="btn" id="dectmt">-</button>
+                  <h2 id="prcedisplay"></h2>
+                  <button class="btn" id="incmt">+</button>
+              </div>
+              <div id="adcrt">
+                  <p>Add To Cart</p>
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+              </div>
+              <div>
+                  <p><b>Buy Now</b></p>
+              </div>
+           </div>
+           <div id="wishdiv">
+               <p><b>Add To Wishlist</b></p>
+               <i class="fa-solid fa-heart"></i>
+           </div>
+           <p class="last">SKU:26c-5</p>
+           <p class="last">Categories:Necklace, Women Accessories</p>
+        </div> 
+       
+    </div>
+  
+</body>
+</html>
+<script>
+  let quantity=1
+    document.querySelector("#incmt").addEventListener("click",incfun)
+       document.querySelector("#dectmt").addEventListener("click",decmentfun)
+    let displayqnt=document.querySelector("#prcedisplay")
+    displayqnt.innerText=quantity
+    function incfun(){
+        quantity++
+        displayqnt.innerText=quantity
+    }
+    function decmentfun(){
+        quantity--;
+        if(quantity>0){
+            displayqnt.innerText=quantity
+        }
+     
+     
+    }
+
+
+
+    
+</script>
