@@ -1,0 +1,134 @@
+#f1{
+    width: 100%;
+    height: 170px;
+
+    
+}
+#f1>p {
+    text-align: center;
+    font-size: 25px;
+    color:white;
+    padding-top: 30px;
+    
+    
+}
+#f1>input{
+    width:30%;
+    height:30%;
+    margin-left: 30%;
+    padding-left: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid #303030;
+    
+    font-size: 16px;
+
+
+}
+#f1>button{
+    height:31%;
+    width:10%;
+    background-color: white;
+    border: 1px solid transparent;
+    font-size: 16px;
+    color:black;
+    cursor: pointer;
+}
+#f2{
+    display: flex;
+    width:100%;
+   
+
+
+}
+#f2a{
+    
+    width:26%;
+   
+
+}
+#f2b{
+    
+    width:16%;
+}
+#f2c{
+    
+    width:16%;
+}
+#f2d{
+    
+    width:16%;
+}
+#f2e{
+    
+    width:26%;
+}
+#fLogo{
+    width:80%;
+    padding-top:40px;
+    padding-left: 45px;
+}
+.f2alogo{
+    width:30px;
+    height:30px;
+    margin-top: 20px;
+    
+
+}
+#fb{
+    padding-left: 45px;
+
+}
+.f2bP{
+    margin-top: 40px;
+    color:white;
+    font-size: 20px;
+}
+.fp{
+    margin-top: 20px;
+    color:white;
+    font-size: 17px;
+   line-height: 13px;
+}
+.fa{
+    text-decoration: none;
+}
+.fa:hover{
+    color: white;
+    
+    
+}
+.fpp{
+    color:white;
+}
+.fpp:hover{
+    transform: scale(1.2);
+}
+#backImg{
+    background-image: 
+              url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700460180.jpg");
+              background-repeat: no-repeat;
+              background-size: 100% 100%;
+}
+#f3{
+    display: flex;
+    margin-top: 30px;
+}
+.f3alogo{
+    width:30px;
+    height:30px;
+   
+    
+
+}
+#f3a{
+    width:80%;
+    color:white;
+    padding-left: 45px;
+
+}
+#f3b{
+    width:20%;
+    margin-top: 10px;
+    
+}
