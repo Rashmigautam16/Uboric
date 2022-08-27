@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FavoritePage</title>
+    <script src="https://kit.fontawesome.com/4280425d75.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/index.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #head {
+            width: 90%;
+            height: 60px;
+            border: 1px solid transparent;
+            margin: auto;
+            background: rgb(228, 226, 226);
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #head>div {
+            width: 18%;
+            height: 100%;
+            color: black;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #displayDiv {
+            width: 90%;
+            border-bottom: 1px solid;
+            /* height: 130px; */
+            margin: auto;
+            margin-top: 8px;
+            display: flex;
+            border-bottom: 1px solid rgb(53, 50, 50);
+        }
+
+        .first {
+            width: 18%;
+            height: 100%;
+            margin-right: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 22px;
+        }
+
+        .second {
+            width: 25%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        img {
+            width: 80%;
+            height: 80%;
+        }
+
+        .third,
+        .fourth {
+            width: 15%;
+            height: 100%;
+            margin-left: 25px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .price {
+            color: rgb(241, 50, 50);
+        }
+
+        .third>p {
+            color: gray;
+            text-decoration: line-through;
+        }
+
+        .instock>p {
+            color: green;
+            font-size: 20px;
+        }
+
+        .last_div {
+            width: 20%;
+            height: 100%;
+            margin-left: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #gotocart {
+            width: 90%;
+            height: 40%;
+            background: black;
+            margin: auto;
+            margin-top: 60px;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 20px;
+        }
+
+        #sharediv {
+            width: 32%;
+            height: 40px;
+            margin: 25px 0px 0px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #sharediv>p {
+            font-size: 18px;
+            margin-left: 10px;
+            margin-right: 20px;
+        }
+
+        #sharediv>div {
+            width: 80%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        #sharediv>div>div {
+            width: 18%;
+            height: 100%;
+            color: white;
+        }
+
+        #fbok {
+            background: #4267B2;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #twtr {
+            background: #1DA1F2;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #pnt {
+            background: #E60023;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #mail {
+            background: rgb(235, 235, 29);
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #whtsp {
+            background: #54cf62;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h3+h1 {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 50px;
+        }
+
+        h3 {
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+
+        h1+h1 {
+            margin-left: 50px;
+            margin-bottom: 20px;
+        }
+
+        #gotocart>p>a {
+            text-decoration: none;
+            color: white;
+        }
+
+        h3>a {
+            text-decoration: none;
+            color: black;
+        }
+
+        p>a {
+            text-decoration: none;
+            color: gray;
+        }
+
+        #displayBlock{
+            border:1px solid red;
+            /* display: grid;
+            grid-template-columns: (1,fr); */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navbar"></div>
+    <h3><a href="#">Home</a>>>Wishlist</h3>
+    <h1>Wishlist</h1>
+    <h1>My wishlist</h1>
+
+    <div id="displayBlock">
+
+        <div id="head">
+            <div>
+                <p><b>Product Name</b></p>
+            </div>
+            <div>
+                <p><b>Unit Price</b></p>
+            </div>
+            <div>
+                <p><b>Stock Status</b></p>
+            </div>
+            <div></div>
+        </div>
+
+        <div id="displayDiv">
+           
+        </div>
+    </div>
+
+    <div id="sharediv">
+        <p><b>Share:</b></p>
+        <div>
+            <div id="fbok">
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div id="twtr">
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div id="pnt">
+                <i class="fa-brands fa-pinterest"></i>
+            </div>
+            <div id="mail">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div id="whtsp">
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>
+
+<script type="module">
+    
+import navbar from "./components/navbar.js"
+document.getElementById("navbar").innerHTML=navbar()
+
+
+import footer from "./components/footer.js"
+document.getElementById("footer").innerHTML=footer()
+
+    let dataWL = JSON.parse(localStorage.getItem("WL-page")) || [];
+    console.log(dataWL);
+
+    let cartLS=JSON.parse(localStorage.getItem("cart-page"))||[];
+
+    appendData(dataWL);
+
+    function appendData(dataWL) {
+        let container = document.getElementById("displayDiv");
+        container.innerHTML = null;
+
+        dataWL.forEach(function (el, index) {
+            let div1 = document.createElement("div");
+            div1.setAttribute("class", "first");
+
+            let remove = document.createElement("button");
+            remove.setAttribute("class", "remove");
+            remove.innerText = "X";
+            remove.addEventListener("click", function () {
+                remove_item(index);
+            });
+            let image = document.createElement("img");
+            image.setAttribute("class", "image");
+            image.src = el.image;
+
+            div1.append(remove, image);
+
+            let div2 = document.createElement("div");
+            div2.setAttribute("class", "second");
+
+            let p1 = document.createElement("p");
+            // p1.setAttribute("class","title")
+            p1.innerText = el.title;
+
+            div2.append(p1);
+
+            let div3 = document.createElement("div");
+            div3.setAttribute("class", "third");
+
+            let p2 = document.createElement("p");
+            p2.setAttribute("class", "tagprice")
+            p2.innerText = el.default_price;
+
+            let p3 = document.createElement("p");
+            p3.setAttribute("class", "price")
+            p3.innerText = el.price;
+
+            div3.append(p2, p3);
+
+            let div4 = document.createElement("div");
+            div4.setAttribute("class", "fourth");
+            let p4 = document.createElement("p");
+            p4.setAttribute("class", "instock")
+            p4.innerText = "Instock";
+
+            div4.append(p4);
+
+            let div5 = document.createElement("div");
+            div5.setAttribute("class", "last_div");
+
+            let div6 = document.createElement("div");
+            div6.setAttribute("id", "gotocart");
+
+            let addToCart = document.createElement("p");
+            addToCart.innerText = "Add To Cart";
+            addToCart.addEventListener("click",function(){
+                if(addToCartFunct(el.title)==true)
+                {
+                    // alert("Added to cart")
+                    console.log(cartLS);
+                    addToCart.innerText="Added to cart";
+                    console.log(el.title);
+                    cartLS.push(el);
+                    localStorage.setItem("cart-page",JSON.stringify(cartLS));
+                }else{
+                    addToCart.innerText="Added to cart";
+                    alert("Already present in cart")
+                }
+            });
+            if(addToCartFunct(el.title)==false)
+                {
+                    addToCart.innerText="Added to cart";
+                }
+
+            let i = document.createElement("i");
+            i.setAttribute("class", "fa-solid fa-cart-arrow-down");
+
+            div6.append(addToCart, i);
+            div5.append(div6);
+
+            container.append(div1, div2, div3, div4, div5);
+
+        })
+    }
+
+    function addToCartFunct(id){
+        for(let i=0;i<cartLS.length;i++){
+            if(cartLS[i].title==id){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    function remove_item(index) {
+        let x = dataWL.splice(index, 1);
+        localStorage.setItem("WL-page", JSON.stringify(x));
+        appendData(x);
+    }
+
+</script>
