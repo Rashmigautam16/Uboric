@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View-Cart</title>
+    <link rel="stylesheet" href="./styles/viewcart.css">
+    
+</head>
+
+<body>
+    <h3><a href="#">Home</a>>>Cart</h3>
+    <div id="bigDiv">
+        <div id="maindiv">
+
+        </div>
+
+        <div id="paymentdiv">
+            <div id="hello">
+                <div>
+                    <p>Subtotal</p>
+                    <p id="totalAmt"></p>
+                </div>
+                <div>
+                    <p>GST (18%)</p>
+                    <p id="GSTAmt"></p>
+                </div>
+                <div>
+                    <h2>Total</h2>
+                    <h2 id="overallTotal"></h2>
+                </div>
+                <div>
+                    <p id="para">Or 3 interest free payments of <b>₹1,983.00</b> with <img
+                            src="https://www.uboric.com/wp-content/plugins/simpl-pay-in-3-for-woocommerce/public/images/brand.svg"
+                            alt=""></p>
+                </div>
+            </div>
+            <button id="checkoutbtn"><a href="#">Proceed To Checkoout</a></button>
+            <P id="baktoshop"><a href="#">← Continue to Shopping</a></P>
+        </div>
+    </div>
+    <p id="cupn">Coupon code</p>
+    <input type="text" placeholder="Enter Coupon code" id="inpdiv">
+    <button id="aplybtn">Apply</button><br>
+    <h2 id="discountValue"></h2>
+    <!-- <button id="sharecart">Share Cart</button> -->
+</body>
+
+</html>
+<script src="./scripts/viewcart.js" type="module"></script>
