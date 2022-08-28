@@ -1,0 +1,65 @@
+*{
+    font-family: sans-serif;
+}
+
+.Form{
+    height:auto;
+    border: 1px solid black;
+    margin: auto;
+    width: 25%;
+    padding: 15px;
+    background-color:white;
+      
+}
+.Input{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    width: 80%;
+    padding: 15px 10px 15px 10px;
+   
+    border: 1px solid black;
+}
+#login{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-family:'Times New Roman', Times, serif
+}
+.img{
+    width: 60%;
+    margin-left: 70px; 
+}
+#sub:hover{
+    background-color:#189f99;
+    border: 1px solid black;
+}
+#sub{
+    cursor: pointer;
+     font-size:25px;
+     width: 86%;
+     padding: 10px 10px 10px 10px;
+     background-color: black;
+     color: white;
+ }
+ #main{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 125px;  
+}
+#mid{
+    width: 88%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#checkbox{
+   height: 20px;
+   width: 20px;
+   
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/payment.css">
+    <link rel="stylesheet" href="./styles/index.css">
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <div id="payment">
+      <div>
+        <div>
+          <h3>TOTAL PAYABLE AMOUNT</h3>
+          <h3 id="payme"></h3>
+        </div>
+        <div>
+          <h3>PAYMENT METHOD</h3>
+        </div>
+        <div id="charge">
+          <h4>Credit / Debit Card</h4>
+          <form action="">
+            <label>Enter your card number (Visa, Mastercard, Amex)</label>
+            <br />
+            <input id="card" type="number" />
+            <br />
+            <label>Enter Name on Card</label>
+            <br />
+            <input id="name" type="text" />
+            <br />
+            <label>CVV</label>
+            <input id="cvv" type="text" />
+            <br />
+            <input id="month" type="month" />
+            <!-- <input id="yr" type="year" /> -->
+            <br />
+            <input type="submit" />
+          </form>
+        </div>
+      </div>
+      <div id="bill">
+        <div style="background-color: transparent"></div>
+
+        <div id="bx">
+          <h3>OVERVIEW</h3>
+          <!-- billing session -->
+          <div class="billsection">
+            <div>
+              <p>Subtotal</p>
+              <p id="sub">Rs.0</p>
+            </div>
+            <div>
+              <p>Discount</p>
+              <p id="gsT">Rs.0</p>
+            </div>
+            <div>
+              <p>GST</p>
+              <p id="dis">Rs.0</p>
+            </div>
+            
+            <div>
+              <h3>Total</h3>
+              <h3 id="Total">Rs.</h3>
+            </div>
+          </div>
+        </div>
+        <div id="continue">Place Order</div>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
+
+<script src="./scripts/payment.js"></script>
+
+<script type="module">
+
+  import navbar from "./components/navbar.js"
+  document.getElementById("navbar").innerHTML=navbar()
+  
+  import footer from "./components/footer.js"
+  document.getElementById("footer").innerHTML=footer()
+  
+  
+  </script>
