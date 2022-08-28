@@ -8,14 +8,23 @@ let formTag = document.querySelector("form");
     console.log(yr);
     if (
       card == "123456" &&
-      name == "Pankaj Mehra" &&
+      name == "Pankaj" &&
       cvv == "123" &&
       yr == "2022-01"
     ) {
      const myTimeout = setTimeout(helloguys,1000);
       function helloguys(){
-        alert("Your Order has been placed");
-        alert("Thanks for Shooping With us");
+
+        setTimeout(function(){
+          alert("Your Order has been placed");
+            setTimeout(function(){
+          
+              alert("Thanks for Shooping With us");
+              window.location.href="index.html";
+              },4000);
+            },2000);
+     
+        
       }
     } else {
       alert("Enter correct Information");
@@ -41,5 +50,5 @@ let order=document.getElementById("continue");
 order.addEventListener("click",function(){
   setTimeout(function(){
 alert("Your order has been successfully placed");
-  },1000);
+  },3000);
 })

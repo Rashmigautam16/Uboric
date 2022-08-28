@@ -16,7 +16,7 @@ function navbar() {
                 <h3 ><a class="page" href="index.html">Home</a></h3>
                 <h3 ><a class="page" href="about.html">About Us</a></h3>
                 <h3 ><a class="page" href="shop.html">Shop</a></h3>
-                <h3 ><a class="page" href="">Categories</a></h3>
+                <h3 ><a class="page" href="cloth.html">Categories</a></h3>
                 <h3 ><a class="page" href="contact.html">Contact Us</a></h3>
             </div>
             
