@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#bigDiv {
+    width: 90%;
+    height: auto;
+
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+}
+
+#maindiv {
+    width: 60%;
+    height: auto;
+
+    margin: auto;
+    margin-top: 60px;
+    /* display: flex; */
+}
+
+.cartfst {
+    /* width: 60%; */
+    /* height: 60%; */
+    border-bottom: 1px solid rgb(201, 192, 192);
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 5px;
+}
+
+.pricediv {
+    width: 38%;
+    height: 100%;
+}
+
+.imgdiv {
+    width: 25%;
+    height: 100%;
+}
+
+.pricediv {
+    width: 72%;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.imgdiv>img {
+    width: 100%;
+    height: 90%;
+    margin-bottom: 20px;
+}
+
+.prodname {
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.number {
+    width: 20%;
+    height: 40px;
+    border: 1px solid black;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.incmt,.dectmt {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: none;
+    font-size: 22px;
+    color: gray;
+}
+
+.incmt:hover,.dectmt:hover {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    background: gray;
+}
+
+.pricediv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div6 {
+    width: 30%;
+    height: 100%;
+
+    /* margin-left: 10px; */
+}
+
+.pricetag,
+#remove {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.remove {
+    font-size: 20px;
+}
+
+#hello {
+    width: 90%;
+    height: 250px;
+    border: 1px solid transparent;
+    margin: auto;
+    margin-top: 20px;
+    background: #f5f5f5;
+    height:400px;
+}
+
+#hello>div:first-child,
+#hello>div:nth-child(2) {
+    width: 90%;
+    margin: auto;
+    height: 32%;
+    border-bottom: 1px solid rgb(201, 192, 192);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#checkoutbtn {
+    width: 80%;
+    height: 40px;
+    display: block;
+    margin: auto;
+    background: lavender;
+    border: none;
+    margin-top: 20px;
+}
+
+#baktoshop {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+#cupn {
+    margin-left: 55px;
+    font-size: 18px;
+    color: rgb(44, 43, 43);
+    margin-bottom: 10px;
+}
+
+#inpdiv {
+    margin-left: 55px;
+    width: 280px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#aplybtn {
+    width: 100px;
+    height: 52px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+#sharecart {
+    width: 100px;
+    height: 52px;
+    background: black;
+    color: white;
+    text-align: center;
+    margin-left: 55px;
+}
+#discountValue{
+    margin-left: 50px;
+    color:red;
+}

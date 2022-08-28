@@ -1,0 +1,100 @@
+
+ 
+ #charge > form > input {
+   font-size: 20px;
+   padding: 10px;
+   margin: 10px;
+   background-color: rgb(209, 209, 209);
+   border: none;
+   border-radius: 10px;
+ }
+ #charge > form > label {
+   margin: 10px;
+   font-size: 18px;
+ }
+ /* #charge > form > input:last-child {
+   width: 20px;
+ } */
+ #charge > form > input:nth-child(6) {
+   width: 10px;
+ }
+ #payment {
+   display: flex;
+   width: 90%;
+   margin: auto;
+
+   display: flex;
+   justify-content: space-between;
+ }
+ #payment > div:first-child > div:first-child {
+   display: flex;
+   justify-content: space-between;
+ }
+ #payment > div:first-child > div:nth-child(2) {
+   border-bottom: 1px solid gray;
+ }
+ #charge {
+   width: 500px;
+
+   margin-left: 20px;
+ }
+ #charge > form {
+   height: 400px;
+ }
+ #charge > form > label {
+   padding-top: 20px;
+ }
+ #cvv {
+   width: 60px;
+ }
+ #bill {
+   width: 400px;
+ }
+ #bill > div:nth-child(1) {
+   width: 100%;
+   height: 40px;
+   text-align: center;
+   padding-bottom: 20px;
+   margin-top: 20px;
+   background-color: rgb(242, 239, 239);
+   font-weight: bolder;
+ }
+ #bill > div:nth-child(2) {
+   width: 95%;
+   height: 250px;
+   margin: auto;
+   margin-top: 40px;
+   background-color: rgb(242, 239, 239);
+ }
+ #bx > h3 {
+   padding: 20px;
+ }
+ .billsection {
+   width: 90%;
+   margin: auto;
+ }
+ .billsection > div {
+   display: flex;
+   justify-content: space-between;
+   margin-top: -20px;
+ }
+ .billsection > div:last-child {
+   margin-top: 2px;
+ }
+ .billsection > div:nth-child(2) {
+   color: rgb(235, 28, 166);
+ }
+ #continue {
+   width: 95%;
+   height: 45px;
+   margin: auto;
+   margin-top: 18px;
+   background-color: #f6548a;
+   text-align: center;
+   color: white;
+   font-weight: bold;
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
