@@ -1,3 +1,7 @@
+# Uboric e-commerce website
+
+This project is a clone of Uboric website. Uboric is your digital shopping assistant dedicated to saving you time and money. With Uboric, you can view a product's availability, price. We made use of Localstorage to store and retrieve data. 
+
 # hard-mist-4433
 fw19_0825 - Rashmi Gautam
 
@@ -9,9 +13,6 @@ fw19_1184 - Farhaz Ansari
 
 fw19_1286 - Sachin Baral
 
-# Team-Uboric
-
-This project is a clone of Uboric website. Uboric is your digital shopping assistant dedicated to saving you time and money. With Uboric, you can view a product's availability, price. We made use of Localstorage to store and retrieve data. 
 
 ## Features
 
@@ -36,7 +37,3 @@ This project is a clone of Uboric website. Uboric is your digital shopping assis
 | DOM | Document Object Model manipulation enables us to change behavior |
 | localStorage |It is used to store data in browser memory |
 | Javascript Object |It is used to store data in the form of key-valye pair |
-
-
-
-
