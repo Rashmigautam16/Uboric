@@ -16,9 +16,10 @@ This project is a clone of Uboric website. Uboric is your digital shopping assis
 ## Features
 
 - Sign-up and sign-in user.
-- Apply catrgories, filter and sort data.
+- Apply catrgories, filter and sort data functionality.
+- Add to cart and wishlist functionality.
 - Add and shop products, offers and community section
-- Follow your favorite brands.
+- Payment functionality.
 
 ## Tech
 
