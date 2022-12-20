@@ -28,10 +28,10 @@ fw19_1286 - Sachin Baral
 - [CSS] - To beautify the website
 - [Js] -To add functionality to website.
 
-## Js Concepts Learnt
+
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/103721591/208712826-a71456c7-3d23-4bd9-b5f9-919b0f46caa5.gif)
 
-
+## Js Concepts Learnt
 | Concept | Purpose |
 | ------|------ |
 | Higher Order Function| map(), reduce(), filter() and forEach()
