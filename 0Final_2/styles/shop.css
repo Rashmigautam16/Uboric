@@ -5,6 +5,7 @@
     width:85%;
     margin:auto;
     justify-content: space-between;
+    margin-top: 150px;
 }
 
 #shop_container{
@@ -200,4 +201,31 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 }
 .checkbox{
    background-color: grey;
+}
+
+/* sidebar */
+
+#shop_sidebar1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#shop_sidebar2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#shop_sidebar3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#shop_price{
+    margin-top: 20px;
+}
+#shop_brand{
+    margin-top: 20px;
+}
+#shop_category{
+    margin-top: 20px;
 }
