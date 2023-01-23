@@ -8,7 +8,7 @@ let s=document.getElementById("select_short");
 let clothing=[
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/banarasi-silk-saree-collection-in-maroon/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-05-at-5.55.06-PM1-370x370.jpeg",
+   image: "https://assets.panashindia.com/media/catalog/product/cache/4/image/9df78eab33525d08d6e5fb8d27136e95/2/0/2077sr01-40a.jpg",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-05-at-5.55.06-PM-370x370.jpeg",
     "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=25242",
     "button href": "https://www.uboric.com/shop/?add-to-cart=25242",
@@ -18,7 +18,7 @@ let clothing=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/banarasi-silk-saree-collection-in-pink/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-05-at-5.55.46-PM1-370x370.jpeg",
+   image: "https://n4.sdlcdn.com/imgs/k/i/a/Sherine-Pink-Banarasi-Silk-Saree-SDL783172948-6-5e514.jpg",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-05-at-5.55.45-PM1-370x370.jpeg",
     "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=25258",
     "button href": "https://www.uboric.com/shop/?add-to-cart=25258",
@@ -28,7 +28,7 @@ let clothing=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/banarasi-silk-saree-collection-in-rama-green/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-05-at-5.54.29-PM-Copy-Copy-370x370.jpeg",
+   image: "https://clothise.com/wp-content/uploads/2021/09/Deep-Green-Zari-Woven-Banarasi-Silk-Saree-1.webp",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-05-at-5.54.28-PM2-370x370.jpeg",
     "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=25227",
     "button href": "https://www.uboric.com/shop/?add-to-cart=25227",
@@ -38,7 +38,7 @@ let clothing=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/banarasi-silk-saree-collection-in-red-pink/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-05-at-5.54.50-PM2-370x370.jpeg",
+   image: "https://www.suratwholesaleshop.com/images/500/data/2022y/January/29017/Traditional-Wear-Red-Weaving-Work-Banarasi-Silk-Saree-ISHA31-5.jpg",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-05-at-5.54.50-PM-370x370.jpeg",
     "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=25241",
     "button href": "https://www.uboric.com/shop/?add-to-cart=25241",
@@ -48,7 +48,7 @@ let clothing=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/beautiful-rich-pallu-jacquard-work-on-all-over-the-saree-in-red/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-03-at-7.25.27-PM2-370x370.jpeg",
+   image: "https://cdn.shopify.com/s/files/1/0046/4506/0680/products/dark-blue-net-designer-lehenga-choli-nc14096b_800x.jpg?v=1583301952",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-03-at-7.25.26-PM-370x370.jpeg",
     "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=25168",
     "button href": "https://www.uboric.com/shop/?add-to-cart=25168",
@@ -58,27 +58,27 @@ let clothing=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/designer-printed-lahenga-choli-in-black/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-03-at-7.26.35-PM-370x370.jpeg",
+   image: "https://i.etsystatic.com/24998233/r/il/cc8b56/3522721499/il_794xN.3522721499_iyeg.jpg",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-03-at-7.26.34-PM-370x370.jpeg",
     "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=25184",
     "button href": "https://www.uboric.com/shop/?add-to-cart=25184",
-   title: "Designer printed lahenga choli in black",
+   title: "Designer printed lahenga choli",
     default_price: "5879.00",
     price: "2939.00"
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/designer-printed-lahenga-choli-in-pink/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-03-at-7.27.19-PM1-370x370.jpeg",
+   image: "https://www.pinkvilla.com/imageresize/sai_saree_main.jpg?width=752&t=pvorg",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-03-at-7.27.20-PM-370x370.jpeg",
     "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=25216",
     "button href": "https://www.uboric.com/shop/?add-to-cart=25216",
-   title: "Designer printed lahenga choli in Pink",
+   title: "Banarasi silk saree collection",
     default_price: "5879.00",
     price: "2939.00"
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/designer-printed-lahenga-choli-in-pinkyellow/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-03-at-7.27.01-PM-370x370.jpeg",
+   image: "https://5.imimg.com/data5/SELLER/Default/2021/6/RG/OQ/UB/29174263/whatsapp-image-2021-06-05-at-4-02-45-pm-1--500x500.jpeg",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-03-at-7.27.00-PM-370x370.jpeg",
     "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=25202",
     "button href": "https://www.uboric.com/shop/?add-to-cart=25202",
@@ -88,7 +88,7 @@ let clothing=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/designer-printed-lahenga-choli-in-sea-green/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-03-at-7.26.49-PM-370x370.jpeg",
+   image: "https://www.indianrani.com/media/catalog/product/cache/49a1046c74d53b164026c3cc8a9cdca2/b/s/bs2_1005_b_1_1.jpg",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-03-at-7.26.48-PM-370x370.jpeg",
     "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=25185",
     "button href": "https://www.uboric.com/shop/?add-to-cart=25185",
@@ -98,7 +98,7 @@ let clothing=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/dulhan-lehenga-choli-wedding-lehenga-choli-in-black/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-14-at-7.20.03-PM-1-370x370.jpeg",
+   image: "https://www.wholesaletextile.in/product-img/Grey-Designer-Bridal-Lehenga-c1-1604644899.jpeg",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-14-at-7.20.04-PM-370x370.jpeg",
     "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=26326",
     "button href": "https://www.uboric.com/shop/?add-to-cart=26326",
@@ -108,7 +108,7 @@ let clothing=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/dulhan-lehenga-choli-wedding-lehenga-choli-in-dark-green/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-14-at-7.20.02-PM1-370x370.jpeg",
+   image: "https://cdn.shopify.com/s/files/1/0046/4506/0680/products/dark-blue-net-designer-lehenga-choli-nc14096b_800x.jpg?v=1583301952",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-14-at-7.20.03-PM-370x370.jpeg",
     "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=26324",
     "button href": "https://www.uboric.com/shop/?add-to-cart=26324",
@@ -118,7 +118,7 @@ let clothing=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/dulhan-lehenga-choli-wedding-lehenga-choli-in-green/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-14-at-7.22.03-PM-370x370.jpeg",
+   image: "https://cdn.shopify.com/s/files/1/1760/4649/products/designer-lehenga-soft-beige-designer-lehenga-silk-saree-online-31481164333249.jpg?v=1648618267",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-14-at-7.22.00-PM-370x370.jpeg",
     "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=26328",
     "button href": "https://www.uboric.com/shop/?add-to-cart=26328",
@@ -128,7 +128,7 @@ let clothing=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/dulhan-lehenga-choli-wedding-lehenga-choli-in-green-valvet/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-14-at-7.19.21-PM-370x370.jpeg",
+   image: "https://images.pexels.com/photos/13267023/pexels-photo-13267023.jpeg?auto=compress&cs=tinysrgb&w=400",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-14-at-7.19.22-PM-370x370.jpeg",
     "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=26325",
     "button href": "https://www.uboric.com/shop/?add-to-cart=26325",
@@ -138,7 +138,7 @@ let clothing=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/dulhan-lehenga-choli-wedding-lehenga-choli-in-l-pink/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-14-at-7.20.57-PM2-370x370.jpeg",
+   image: "https://images.pexels.com/photos/13156202/pexels-photo-13156202.jpeg?auto=compress&cs=tinysrgb&w=600",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-14-at-7.20.57-PM1-370x370.jpeg",
     "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=25522",
     "button href": "https://www.uboric.com/shop/?add-to-cart=25522",
@@ -148,7 +148,7 @@ let clothing=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/dulhan-lehenga-choli-wedding-lehenga-choli-in-pink-2/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-14-at-7.22.31-PM-370x370.jpeg",
+   image: "https://images.pexels.com/photos/13159940/pexels-photo-13159940.jpeg?auto=compress&cs=tinysrgb&w=600",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-14-at-7.22.32-PM-370x370.jpeg",
     "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=26342",
     "button href": "https://www.uboric.com/shop/?add-to-cart=26342",
@@ -158,7 +158,7 @@ let clothing=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/dulhan-lehenga-choli-wedding-lehenga-choli-in-pink/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-14-at-7.20.56-PM-370x370.jpeg",
+   image: "https://images.pexels.com/photos/12762493/pexels-photo-12762493.jpeg?auto=compress&cs=tinysrgb&w=400",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-14-at-7.20.59-PM-370x370.jpeg",
     "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=25523",
     "button href": "https://www.uboric.com/shop/?add-to-cart=25523",
@@ -168,7 +168,7 @@ let clothing=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/dulhan-lehenga-choli-wedding-lehenga-choli-in-wine/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-14-at-7.23.10-PM-370x370.jpeg",
+   image: "https://images.pexels.com/photos/11726514/pexels-photo-11726514.jpeg?auto=compress&cs=tinysrgb&w=600",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-14-at-7.23.10-PM1-370x370.jpeg",
     "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=26330",
     "button href": "https://www.uboric.com/shop/?add-to-cart=26330",
@@ -178,7 +178,7 @@ let clothing=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/dulhan-lehenga-choli-wedding-lehenga-choli-in-yellow/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-14-at-7.21.27-PM-370x370.jpeg",
+   image: "https://images.pexels.com/photos/12737613/pexels-photo-12737613.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-14-at-7.21.28-PM1-370x370.jpeg",
     "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=26327",
     "button href": "https://www.uboric.com/shop/?add-to-cart=26327",
@@ -188,7 +188,7 @@ let clothing=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/dupatta-heavy-butterfly-net-in-blue/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-04-at-6.18.25-PM-370x370.jpeg",
+   image: "https://www.priyavastra.com/wp-content/uploads/2022/08/Blue-Designer-Embroidery-Sequins-Work-Lehenga-Choli-With-Butterfly-Net-Lace-Border-Dupatta-1.jpeg",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-04-at-6.18.28-PM-370x370.jpeg",
     "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=25226",
     "button href": "https://www.uboric.com/shop/?add-to-cart=25226",
@@ -198,7 +198,7 @@ let clothing=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/fabric-hevay-sattin-zari-silk-in-black/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-03-at-7.27.35-PM1-370x370.jpeg",
+   image: "http://cdn.shopify.com/s/files/1/0606/3803/6136/products/black-silk-satin-crushed-saree-with-heavy-border-YOYO-147-5425-Black_1.jpg?v=1645445640",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-05-03-at-7.27.34-PM-370x370.jpeg",
     "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=25215",
     "button href": "https://www.uboric.com/shop/?add-to-cart=25215",
@@ -208,43 +208,13 @@ let clothing=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/fancy-pallu-thread-sequnce-work-saree/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-04-25-at-12.48.22-PM-370x370.jpeg",
+   image: "https://5.imimg.com/data5/CO/OD/RO/SELLER-28280455/thread-jari-embroidery-with-sequence-work-saree-1000x1000.jpg",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-04-25-at-12.48.23-PM-1-370x370.jpeg",
     "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=25158",
     "button href": "https://www.uboric.com/shop/?add-to-cart=25158",
    title: "Fancy pallu thread & sequnce work saree",
     default_price: "5394.00",
     price: "2697.00"
-  },
-  {
-    "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/fancy-ruffle-sequnce-work-with-heavy-lace-border-saree/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-04-20-at-6.33.05-PM-1-370x370.jpeg",
-    image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-04-20-at-6.33.04-PM-370x370.jpeg",
-    "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=25129",
-    "button href": "https://www.uboric.com/shop/?add-to-cart=25129",
-   title: "Fancy ruffle & sequnce work with heavy...",
-    default_price: "5700.00",
-    price: "2850.00"
-  },
-  {
-    "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/havy-dola-silk-digital-print-saree/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-04-20-at-6.33.19-PM-1-370x370.jpeg",
-    image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-04-20-at-6.33.21-PM-2-370x370.jpeg",
-    "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=25141",
-    "button href": "https://www.uboric.com/shop/?add-to-cart=25141",
-   title: "Havy dola silk digital print saree",
-    default_price: "3000.00",
-    price: "1500.00"
-  },
-  {
-    "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/havy-japan-silk-digital-print-saree/",
-   image: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-04-20-at-6.51.18-PM-2-370x370.jpeg",
-    image1: "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-04-20-at-6.51.18-PM-370x370.jpeg",
-    "rz-loop_button href": "https://www.uboric.com/shop/?add_to_wishlist=25142",
-    "button href": "https://www.uboric.com/shop/?add-to-cart=25142",
-   title: "Havy japan silk digital print saree",
-    default_price: "4500.00",
-    price: "2250.00"
   }
 ];
 let id=1000;
