@@ -146,10 +146,11 @@ a{
 .image{
     width:100%;
     height:300px;
-    
+    transform: all 600ms;
 }
 .image:hover{
     transform: scale(1.1);
+     transform: all 600ms;
 }
 #head{
     text-align: center;
@@ -188,9 +189,11 @@ a{
 
 .cImage{
     width: 100%;
+    transition: all 600ms;
 }
 .cImage:hover{
     transform: scale(1.1);
+    transition: all 600ms;
 }
 .catDiv{
     

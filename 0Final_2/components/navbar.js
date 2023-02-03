@@ -1,14 +1,14 @@
 function navbar() {
     return`
-    
+        <div>
         <div id="container1">
             <p>FOR ONLINE PAYMENT EXTRA ₹10% DISCOUNT ON ORDERS ABOVE ₹500</p>
         </div>
 
         <div id="container22">
             <div id="box1">
-                <a href="">
-                <img src="https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/200x80black.png" alt="">
+                <a href="uboric">
+                <img src="./uboric.jpg" alt="">
                 </a>
             </div>
 
