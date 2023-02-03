@@ -61,10 +61,10 @@ function append(jacksapprow){
         img.src=el.image
         let start=img.src
         // start=el.image;
-        let hover=img.getAttribute("hover")
-        hover=el.image1
-        img.onmouseout=()=>{img.src=start;}
-        img.onmouseover=()=>{img.src=hover;}
+        // let hover=img.getAttribute("hover")
+        // hover=el.image1
+        // img.onmouseout=()=>{img.src=start;}
+        // img.onmouseover=()=>{img.src=hover;}
 
         
         let view=document.createElement("div");

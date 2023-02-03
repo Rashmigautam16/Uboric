@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="./styles/viewcart.css" />
     <link rel="stylesheet" href="./styles/index.css" />
   </head>
-
+ <style>
+  #total{
+    display: flex;
+    justify-content: space-between;
+  }
+ </style>
   <body>
     <div id="navbar"></div>
     <h3><a href="#">Home</a>>>Cart</h3>
@@ -25,7 +30,7 @@
             <p>GST (18%)</p>
             <p id="GSTAmt"></p>
           </div>
-          <div>
+          <div id="total">
             <h2>Total</h2>
             <h2 id="overallTotal"></h2>
           </div>
