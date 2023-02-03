@@ -235,19 +235,19 @@ console.log(clothing);
 let electronics=[
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/philips-bhh816-00-crimp-straighten-or-curl-with-the-single-tool-quickly-and-without-fear-of-heat-damage/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/51CLcJ8pTRL._SL1500_-370x370.jpg",
+    image: "https://cdn01.pharmeasy.in/dam/products_otc/S37499/philips-bhh816-00-crimp-straighten-or-curl-with-the-single-tool-2-1671743970.jpg",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/616bupYZyAL._SL1500_-370x370.jpg",
     "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=25114",
     "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=25114",
     title: "Philips BHH816/00 Crimp, Straighten or Curl...",
     default_price: "4995.00",
     "onsale": "",
-    price: "",
+    price: "2939.00",
     "woocommerce-Price-currencySymbol 2": ""
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/philips-bhs378-10-kerashine-straightener-pink/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/31Tw0kj55sL-370x370.jpg",
+    image: "https://m.media-amazon.com/images/I/31Tw0kj55sL.jpg",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/61j4d3c3bLL._SL1500_-370x370.jpg",
     "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=25095",
     "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=25095",
@@ -259,7 +259,7 @@ let electronics=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/philips-bhs378-10-kerashine-straightener-pink-2/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/31Tw0kj55sL-370x370.jpg",
+    image: "https://doiqgxrhp4iii.cloudfront.net/HP8310_64_11zon.jpg",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/61j4d3c3bLL._SL1500_-370x370.jpg",
     "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=26311",
     "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=26311",
@@ -270,32 +270,8 @@ let electronics=[
     "woocommerce-Price-currencySymbol 2": "₹"
   },
   {
-    "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/philips-bhs393-40-straightener-with-silkprotect-technology-straighten-curl-suitable-for-all-hair-types-lavender/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/61jWimZTcSS._SL1500_-370x370.jpg",
-    image1: "https://www.uboric.com/wp-content/uploads/2022/08/61HvKuwnSS._SL1500_-370x370.jpg",
-    "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=25097",
-    "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=25097",
-    title: "PHILIPS BHS393/40 Straightener with SilkProtect...",
-    default_price: "1845.00",
-    "onsale": "Sale",
-    price: "1589.00",
-    "woocommerce-Price-currencySymbol 2": "₹"
-  },
-  {
-    "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/philips-bhs397-40-kerashine-titanium-straightener-with-silkprotect-technology-straighten-curl-with-instant-shine/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/61b1cTF68dS._SL1500_-370x370.jpg",
-    image1: "https://www.uboric.com/wp-content/uploads/2022/08/61veEJo1R7S._SL1500_-370x370.jpg",
-    "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=25096",
-    "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=25096",
-    title: "PHILIPS BHS397/40 Kerashine Titanium Straightener...",
-    default_price: "2495.00",
-    "onsale": "Sale",
-    price: "2119.00",
-    "woocommerce-Price-currencySymbol 2": "₹"
-  },
-  {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/philips-body-groom-bg1024-battery-operated-body-groomer-black/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/51oCS5ypHOL._SL1000_-370x370.jpg",
+    image: "https://m.media-amazon.com/images/I/51X7bxytwpL._SL1000_.jpg",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/51X7bxytwpL._SL1000_-370x370.jpg",
     "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=25094",
     "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=25094",
@@ -307,7 +283,7 @@ let electronics=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/philips-body-groom-bg1024-battery-operated-body-groomer-black-2/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/51oCS5ypHOL._SL1000_-370x370.jpg",
+    image: "https://d3bbb7hgr6ql2r.cloudfront.net/uploads/all/G4y8hwiU4Z43QPyjFFFTnLK4lMaSx84AEXPPU752.jpg",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/51X7bxytwpL._SL1000_-370x370.jpg",
     "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=26310",
     "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=26310",
@@ -319,7 +295,7 @@ let electronics=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/philips-bt1230-15-skin-friendly-beard-trimmer-dura-power-technology-cordless-rechargeable-with-usb-charging-charging-indicator-travel-lock/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/21pDA9xr5JL.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeNxwWwsG6I1r8owAcP36oEhHxAWFY8t7mZw&usqp=CAU",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/21lHTisjt9L.jpg",
     "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=25090",
     "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=25090",
@@ -331,7 +307,7 @@ let electronics=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/philips-bt1235-15-skin-friendly-beard-trimmer-dura-power-technology-cordless-rechargeable-with-usb-charging-charging-indicator-travel-lock/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/21S9ZpGp6tL.jpg",
+    image: "https://m.media-amazon.com/images/I/31ffVtQZvAL.jpg",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/31GUHMbWLcL-370x245.jpg",
     "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=25089",
     "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=25089",
@@ -343,7 +319,7 @@ let electronics=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/philips-bt3203-15-cordless-rechargeable-beard-trimmer-10-length-settings-45-min-run-time/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/51hC24pg9qL._SL1500_-370x370.jpg",
+    image: "https://m.media-amazon.com/images/I/51hC24pg9qL._SL1500_.jpg",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/61WWpJ323fL._SL1500_-370x370.jpg",
     "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=25088",
     "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=25088",
@@ -354,32 +330,8 @@ let electronics=[
     "woocommerce-Price-currencySymbol 2": "₹"
   },
   {
-    "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/philips-bt3203-15-cordless-rechargeable-beard-trimmer-10-length-settings-45-min-run-time-2/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/51hC24pg9qL._SL1500_-370x370.jpg",
-    image1: "https://www.uboric.com/wp-content/uploads/2022/08/61WWpJ323fL._SL1500_-370x370.jpg",
-    "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=26309",
-    "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=26309",
-    title: "Philips BT3203/15 cordless rechargeable Beard...",
-    default_price: "1495.00",
-    "onsale": "Sale",
-    price: "1419.00",
-    "woocommerce-Price-currencySymbol 2": "₹"
-  },
-  {
-    "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/philips-bt3221-15-corded-90-min-run-time/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/617WV3K81EL._SL1500_-370x370.jpg",
-    image1: "https://www.uboric.com/wp-content/uploads/2022/08/61VglyKksNL._SL1000_-370x370.jpg",
-    "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=25087",
-    "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=25087",
-    title: "Philips BT3221/15 corded & cordless...",
-    default_price: "2329.00",
-    "onsale": "Sale",
-    price: "2149.00",
-    "woocommerce-Price-currencySymbol 2": "₹"
-  },
-  {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/philips-hair-dryer-bhc010-10/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/21fzzG8ATvL-370x370.jpg",
+    image: "https://images.philips.com/is/image/philipsconsumer/8f7881d65e744dfea123ae77013d53e9",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/41bmVBPCCQL-370x286.jpg",
     "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=25099",
     "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=25099",
@@ -390,32 +342,8 @@ let electronics=[
     "woocommerce-Price-currencySymbol 2": "₹"
   },
   {
-    "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/philips-hp-8303-06-hair-straightener/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/61Tb9AiGN1L._SL1500_-370x370.jpg",
-    image1: "",
-    "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=25098",
-    "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=25098",
-    title: "Philips Hp 8303/06 Hair Straightener",
-    default_price: "1295.00",
-    "onsale": "Sale",
-    price: "1169.00",
-    "woocommerce-Price-currencySymbol 2": "₹"
-  },
-  {
-    "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/philips-hp-8303-06-hair-straightener-2/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/61Tb9AiGN1L._SL1500_-370x370.jpg",
-    image1: "",
-    "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=26312",
-    "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=26312",
-    title: "Philips Hp 8303/06 Hair Straightener",
-    default_price: "1295.00",
-    "onsale": "Sale",
-    price: "1169.00",
-    "woocommerce-Price-currencySymbol 2": "₹"
-  },
-  {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/philips-hp8144-hair-dryer-violet/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/51RgsQbXEmL._SL1500_-370x370.jpg",
+    image: "https://m.media-amazon.com/images/I/51RgsQbXEmL._SX679_.jpg",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/51kIDoP5SQL._SL1500_-370x370.jpg",
     "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=25112",
     "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=25112",
@@ -427,7 +355,7 @@ let electronics=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/philips-hp8643-56-hair-dryer-and-straightener-combo-miss-freshers-styling-kit-purple/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/41g4GP2nF1L._SL1066_-370x370.jpg",
+    image: "https://www.luluhypermarket.in/medias/151758-01.jpg-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w4MTI0NHxpbWFnZS9qcGVnfGgzOS9oMDAvODg0ODg3MjczNDc1MC8xNTE3NTgtMDEuanBnXzEyMDBXeDEyMDBIfGVmNTUwN2RhMGQyODRjYjYxMWYxYzM0YjllNTdhOWM3N2Y2ZThlZmQzZDQ5Y2JmNzg3ODM2YjRlMjMwOWE0Y2Q",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/51cxdRTGe6L._SL1066_-370x370.jpg",
     "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=25113",
     "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=25113",
@@ -439,7 +367,7 @@ let electronics=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/philips-multi-grooming-kit-mg7707-15-12-in-1-face-head-and-body-all-in-one-trimmer-power-adapt-technology-for-precise-trimming-90-mins-run-time-with-quick-charge/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/51cgb3TAomL._SL1080_-370x370.jpg",
+    image: "https://m.media-amazon.com/images/I/61GfYsUf42L._SL1080_.jpg",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/617MMTlVnL._SL1080_-370x370.jpg",
     "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=25091",
     "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=25091",
@@ -451,7 +379,7 @@ let electronics=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/philips-norelco-multigroom-all-in-one-series-3000-13-attachment-trimmer-mg3750/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/91qmPJKT87L._SL1500_-370x370.jpg",
+    image: "https://m.media-amazon.com/images/I/41oWvKmOgNL._SY355_.jpg",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/81TpMd5AnzL._SL1500_-370x370.jpg",
     "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=25092",
     "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=25092",
@@ -463,7 +391,7 @@ let electronics=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/philips-oneblade-qp2512-10-hybrid-booklet-blister-with-30-minutes-runtime/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/51gBGz4a8UL._SL1500_-370x370.jpg",
+    image: "https://rukminim1.flixcart.com/image/416/416/koenl3k0/headphone/2/u/l/yuva-qor9-original-imag2vdnfwfd4gd8.jpeg?q=70",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/41LSzcg8vzL-370x281.jpg",
     "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=25093",
     "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=25093",
@@ -475,7 +403,7 @@ let electronics=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/qor9-yuva-wireless-headphones-neckbands-with-magnetic-earbuds-advanced-bluetooth-5-0/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/51FhZHveTvS._AC_SL1080_-370x370.jpg",
+    image: "https://qor9.in/wp-content/uploads/2021/02/1-min-1.png",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/51yGkkF2F9S._AC_SL1080_-370x370.jpg",
     "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=29842",
     "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=29842",
@@ -487,7 +415,7 @@ let electronics=[
   },
   {
     "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/type-c-sonicplus-111-magnet-wireless-bluetooth-earphone-with-mic/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/519bIfsYsYS._SL1500_-370x370.jpg",
+    image: "https://m.media-amazon.com/images/I/610ICFikIhL._SX679_.jpg",
     image1: "https://www.uboric.com/wp-content/uploads/2022/08/71o3YOFatmS._SL1500_-370x370.jpg",
     "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=26939",
     "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=26939",
@@ -496,31 +424,31 @@ let electronics=[
     "onsale": "Sale",
     price: 699,
     "woocommerce-Price-currencySymbol 2": "₹"
-  },
-  {
-    "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/qor9-sonic-green-magnet-wireless-bluetooth-earphone-with-mic/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/SONIC_GREEN1_result-370x370.jpg",
-    image1: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2021-02-25_19-28-01-2-370x370.jpg",
-    "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=29636",
-    "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=29636",
-    title: "QOR9 SONIC GREEN Magnet  Wireless Bluetooth...",
-    default_price: "1799.00",
-    "onsale": "Sale",
-    price: 899,
-    "woocommerce-Price-currencySymbol 2": "₹"
-  },
-  {
-    "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/qor9-sonic-red-magnet-wireless-bluetooth-earphone-with-mic-magnetic-bluetooth-headphones-with-mic/",
-    image: "https://www.uboric.com/wp-content/uploads/2022/08/SONIC1_result-e1614411373440-370x370.jpg",
-    image1: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2021-02-25_19-28-18-370x370.jpg",
-    "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=29638",
-    "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=29638",
-    title: "QOR9 SONIC RED Magnet Wireless Bluetooth...",
-    default_price: "1799.00",
-    "onsale": "Sale",
-    price: 899,
-    "woocommerce-Price-currencySymbol 2": "₹"
   }
+  // {
+  //   "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/qor9-sonic-green-magnet-wireless-bluetooth-earphone-with-mic/",
+  //   image: "https://www.uboric.com/wp-content/uploads/2022/08/SONIC_GREEN1_result-370x370.jpg",
+  //   image1: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2021-02-25_19-28-01-2-370x370.jpg",
+  //   "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=29636",
+  //   "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=29636",
+  //   title: "QOR9 SONIC GREEN Magnet  Wireless Bluetooth...",
+  //   default_price: "1799.00",
+  //   "onsale": "Sale",
+  //   price: 899,
+  //   "woocommerce-Price-currencySymbol 2": "₹"
+  // },
+  // {
+  //   "woocommerce-LoopProduct-link href": "https://www.uboric.com/product/qor9-sonic-red-magnet-wireless-bluetooth-earphone-with-mic-magnetic-bluetooth-headphones-with-mic/",
+  //   image: "https://www.uboric.com/wp-content/uploads/2022/08/SONIC1_result-e1614411373440-370x370.jpg",
+  //   image1: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2021-02-25_19-28-18-370x370.jpg",
+  //   "rz-loop_button href": "https://www.uboric.com/product-category/electronics/?add_to_wishlist=29638",
+  //   "button href": "https://www.uboric.com/product-category/electronics/?add-to-cart=29638",
+  //   title: "QOR9 SONIC RED Magnet Wireless Bluetooth...",
+  //   default_price: "1799.00",
+  //   "onsale": "Sale",
+  //   price: 899,
+  //   "woocommerce-Price-currencySymbol 2": "₹"
+  // }
 ];
 id=1100;
 for(let i=0;i<electronics.length;i++)
