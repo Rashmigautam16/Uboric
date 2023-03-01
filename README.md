@@ -1,4 +1,4 @@
-# Uboric e-commerce website
+                                                                                            # Uboric e-commerce website
 
 This project is a clone of Uboric website. Uboric is your digital shopping assistant dedicated to saving you time and money. With Uboric, you can view a product's availability, price. We made use of Localstorage to store and retrieve data. 
 
